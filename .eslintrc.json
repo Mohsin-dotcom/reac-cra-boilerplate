@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true
+  },
+  "extends": ["plugin:react/recommended", "standard"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "js": true
+    },
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "semi": [1, "always"],
+    "generator-star-spacing": ["error", "after"],
+    "space-before-function-paren": ["error", "never"],
+    "react/react-in-jsx-scope": "off",
+    "allowInParentheses": 0
+  }
+}
